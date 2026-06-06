@@ -56,6 +56,7 @@ public class StudentManagementSystem {
         for (Student student : students) {
             total += student.getMarks();
         }
+		// Search and average calculation functions
 
         double average = total / students.size();
 
